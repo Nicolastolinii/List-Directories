@@ -41,6 +41,7 @@ Siéntete libre de personalizar el arreglo extensiones en el código para agrega
 El programa es compatible tanto con Windows como con sistemas tipo Unix.
 
 En Windows, utiliza la biblioteca windows.h para el manejo de directorios.
+
 En sistemas tipo Unix, utiliza la biblioteca dirent.h.
 ### Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, por favor, abre un problema o crea una solicitud de extracción.
