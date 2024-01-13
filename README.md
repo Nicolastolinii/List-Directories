@@ -20,12 +20,12 @@ Compila el programa con el siguiente comando:
 ```bash
 gcc directory_listing.c -o directory_listing
 ```
-Uso
+### Uso
 Ejecuta el ejecutable compilado e ingresa la ruta del directorio que deseas listar cuando se te solicite.
 
-Extensiones de Archivos
+### Extensiones de Archivos
 El programa categoriza los archivos según las siguientes extensiones:
-
+```
 .txt: TEXT
 .exe: EXE
 .pdf: PDF
@@ -34,12 +34,13 @@ El programa categoriza los archivos según las siguientes extensiones:
 .py: PY
 .h: H
 .rar: RAR
+```
 Siéntete libre de personalizar el arreglo extensiones en el código para agregar o eliminar extensiones según sea necesario.
 
-Soporte de Plataforma
+### Soporte de Plataforma
 El programa es compatible tanto con Windows como con sistemas tipo Unix.
 
 En Windows, utiliza la biblioteca windows.h para el manejo de directorios.
 En sistemas tipo Unix, utiliza la biblioteca dirent.h.
-Contribuciones
+### Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, por favor, abre un problema o crea una solicitud de extracción.
